@@ -1,0 +1,22 @@
+# Dependencias
+/node_modules
+
+# Archivo de configuración de Firebase
+archivo-de-configuracion-de-firebase.json
+
+# Archivos de registro
+npm-debug.log
+yarn-error.log
+
+# Archivos generados por el editor
+.vscode
+.idea
+
+# Archivos de compilación
+/dist
+
+# Otros archivos generados
+.DS_Store
+
+# Firebase
+loginjonathanvera-firebase-adminsdk.json
