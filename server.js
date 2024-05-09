@@ -16,6 +16,9 @@ app.use(bodyParser.json());
 
 const usersRoutes = require('./src/routes/users.routes');
 app.use('/users', usersRoutes);
+app.post('/users', (req, res) => {
+  res.send('POST request to the homepage');
+});
 
 const PORT = process.env.PORT || 3000;
 
